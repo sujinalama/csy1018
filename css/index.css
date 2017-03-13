@@ -1,0 +1,118 @@
+body{
+  background: url("../images/me.jpg")no-repeat center fixed;
+  background-size: cover;
+}
+header{
+  background-color: black;
+  opacity: .3;
+  height:170px;
+  border: orange 20px solid;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+header:hover{
+  transition: 1s;
+  height:250px;
+}
+h1{
+  color: #FFE0B2;
+  text-align: center;
+  font-style: italic;
+  font-size: 2em;
+  height:5px;
+  padding-right: 100px;
+}
+h2{
+  text-align: center;
+  color:#FFE0B2;
+  font-size: 4em;
+  padding-left: 200px;
+}
+h3{
+  color: #FFE0B2;
+  text-align: center;
+  font-style: italic;
+  font-size: 2em;
+  height:5px;
+  padding-right: 100px;
+}
+img{
+  height:180px;
+  width:200px;
+  padding-left: 350px;
+}
+section{
+  padding-left: 300px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  height:350px;
+  text-align: center;
+}
+a{
+  font-size: 2em;
+  font-style: bold;
+  color:white;
+}
+div{
+  cursor: pointer;
+}
+.bio{
+  background: black;
+  width: 200px ;
+  height:200px;
+  border: 5px solid grey;
+  border-radius: 90px;
+  opacity: .7;
+  padding-bottom: 10px;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+.bio:hover{
+  background-color: grey;
+  width:240px;
+  transition: .6s;
+}
+.contact{
+  background-color:black;
+  width: 200px ;
+  height:200px;
+  border: 5px solid grey;
+  border-radius: 90px;
+  opacity: .7;
+  color:white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.contact:hover{
+  background-color: grey;
+  width:240px;
+  transition: .6s;
+}
+.cv{
+ background-color:black;
+ width: 200px ;
+ height:200px;
+ border: 5px solid grey;
+ border-radius: 90px;
+ opacity: .7;
+ color:white;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ white-space: nowrap;
+}
+.cv:hover{
+  background-color: grey;
+  width:240px;
+  transition: .6s;
+}
+footer{
+  color: white;
+  float:right;
+
+  }
