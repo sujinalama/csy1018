@@ -1,15 +1,13 @@
 body{
   font-size: 1em;
-  background:linear-gradient(#FF9100,#FFAB40,#FFD180);
-  opacity: .5px;
 }
-
-
 header{
     font-size:  2em;
     text-align: center;
 }
 p{
+  border: blue 10px solid;
   width:400px;
   height:500px;
+  background:linear-gradient(#FF9100,#FFAB40,#FFD180);
 }

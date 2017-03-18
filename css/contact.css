@@ -1,0 +1,28 @@
+div{
+  height:600px;
+  width:500px;
+  background-color: grey;
+}
+p{
+  font-size: 2em;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+input[type="text"]{
+  height:30px;
+  width:300px;}
+input[type="email"]{
+  height:40px;
+  width:400px;
+}
+input[type="textareas"]{
+  height:200px;
+  width: 400px;
+}
+input[type="submit"]{
+  height:40px;
+  width:200px;
+}

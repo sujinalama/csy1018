@@ -4,7 +4,7 @@ body{
 }
 header{
   background-color: black;
-  opacity:.3;
+  opacity: .3;
   height:170px;
   border: orange 20px solid;
   overflow: hidden;
@@ -37,14 +37,32 @@ h3{
   height:5px;
   padding-right: 100px;
 }
+.edit{
+  height:300px;
+  width:240px;
+  float: left;
+  border: grey solid 10px;
+  opacity:.8;
+  border-radius: 20%;
+}
+i{
+  padding:20px;
+  color: white;
+}
 img{
-  height:180px;
-  width:200px;
-  padding-left: 350px;
+  height:200px;
+  width:220px;
+  padding-left: 10px;
+  border-radius: 10%;
+}
+div{
+  padding: 10px;
+  padding-top: 30px;
 }
 section{
-  padding-left: 300px;
-  padding-top: 40px;
+  cursor: pointer;
+  padding-left: 120px;
+  padding-top: 70px;
   display: flex;
   flex-direction: row;
   height:350px;
@@ -52,25 +70,20 @@ section{
 }
 a{
   font-size: 2em;
-  font-style: bold;
   color:white;
-}
-div{
-  cursor: pointer;
 }
 .bio{
   background: black;
   width: 200px ;
-  height:200px;
+  height:120px;
   border: 5px solid grey;
   border-radius: 90px;
   opacity: .7;
-  padding-bottom: 10px;
   color: white;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-
+  padding-top: 70px;
 }
 .bio:hover{
   background-color: grey;
@@ -80,7 +93,7 @@ div{
 .contact{
   background-color:black;
   width: 200px ;
-  height:200px;
+  height:120px;
   border: 5px solid grey;
   border-radius: 90px;
   opacity: .7;
@@ -88,6 +101,7 @@ div{
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  padding-top: 70px;
 }
 .contact:hover{
   background-color: grey;
@@ -97,7 +111,7 @@ div{
 .cv{
  background-color:black;
  width: 200px ;
- height:200px;
+ height:120px;
  border: 5px solid grey;
  border-radius: 90px;
  opacity: .7;
@@ -105,6 +119,7 @@ div{
  overflow: hidden;
  text-overflow: ellipsis;
  white-space: nowrap;
+ padding-top: 70px;
 }
 .cv:hover{
   background-color: grey;
