@@ -4,7 +4,7 @@ body{
 }
 header{
   background-color: black;
-  opacity: .3;
+  opacity:.3;
   height:170px;
   border: orange 20px solid;
   overflow: hidden;
@@ -114,5 +114,4 @@ div{
 footer{
   color: white;
   float:right;
-
-  }
+}
