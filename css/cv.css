@@ -9,7 +9,7 @@ header{
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-
+  transition: height 1.05s;
 }
 header:hover{
   transition: 1s;
@@ -17,15 +17,15 @@ header:hover{
 }
 h1{
   border:white 5px solid;
-  width:370px;
+  width:390px;
   color: #FFE0B2;
-  padding: 10px;
+  padding: 1%;
   text-align: center;
   font-style: italic;
   font-size: 2em;
 }
 .cover1{
-  padding-left: 320px;
+  padding-left: 32%;
   padding-top: 0px;
   }
 nav{
@@ -35,40 +35,95 @@ nav{
   display: flex;
   flex-direction: row;
   background-color: white;
-  padding-left: 70px;
+  width:900px;
+  padding-left: 100px;
+  padding-top: 9px;
+  border-radius: 20px;
+  height:50px;
+}
+nav .home:hover{
+  background-color: lightblue;
+}
+nav .bio:hover{
+  background-color: pink;
+}
+nav .contact:hover{
+  background-color: yellow;
+}
+body{
+  background: url("../images/me.jpg")no-repeat center fixed;
+  background-size: cover;
 }
 img{
   height: 200px;
   width: 200px;
+  padding: 18px;
 }
-.bio{
-  padding-left: 125px;
+.icon{
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+  color: purple;
 }
-.contact{
-  padding-left: 125px;
+i{
+  padding-top: 10px;
 }
-.main{
+a{
+    padding:3.5px 50px 0px 80px;
+    text-decoration: none;
+}
+.intro{
   display: flex;
   flex-direction: row;
 }
-.education{
-  width:50%;
+.main{
+  padding: 3%;
+  display: flex;
+  flex-direction: row;
+  background-color:#FFCC80;
 }
-.qualify{
-  background-color: lightblue;
-}
-.another{
+.first{
+  padding: 2%;
   display: flex;
   flex-direction: column;
 }
-p{
-  padding-left: 80px;
+.education{
+border: #E65100 2px solid;
+}
+.education a{
+  font-size: 2em;
+}
+.qualify{
+  background-color: #FF9800;
 }
 .degree{
-  background: lightgreen;
+  background: #FF9800;
 }
 .current{
-  background-color: pink;
+  background-color: #FF9800;
+}
+.course{
+border: #E65100 2px solid;
+}
+.another{
+  width:55%;
+  display: flex;
+  flex-direction: column;
+}
+.another li{
+  font-size: 2em;
+}
+.experience{
+border: #E65100 2px solid;
+}
+.skills{
+border: #E65100 2px solid;
+}
+.activities{
+border: #E65100 2px solid;
+}
+p{
+  padding-left: 80px;
 }
 footer{
  padding: 60px 20px 20px;
@@ -81,4 +136,36 @@ footer{
   border: 5px white solid;
   background: black;
  font-size: 1.10em;
+}
+@media screen and (max-width:1000px){
+  header{
+    font-size:  100%;
+    padding-left: 5%;
+    height:5%;
+    padding-bottom: 2%;
+  }
+  header:hover{
+    height:20%;
+  }
+  h1{
+    width:39%;
+    padding: 2%;
+    font-size: 140%;
+  }
+  .cover1{
+    padding-left: 32%;
+    padding-top: 0px;
+    }
+  nav{
+    display: flex;
+    flex-direction: column;
+    font-size:140%;
+    width:75%;
+    padding:.9% 9% 1% 9%;
+    border-radius: 20px;
+    height:5%;
+}
+  a{
+    padding:.35% 6% 0% 8%;
+    text-decoration: none;}
 }
