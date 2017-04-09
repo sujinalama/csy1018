@@ -1,50 +1,49 @@
 body{
-  background: url("../images/ooo.jpeg")no-repeat center fixed;
-  background-size: cover;
-
+  background: url("../images/ooo.jpeg") no-repeat center fixed;  /* sets a  image to the background*/
+  background-size: cover; /* determines that the picture covers thebackground*/
 }
 header{
-  background-color: black;
-  opacity:.5;
-  height:180px;
-  border: orange 20px solid;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  background-color: black; /*-- sets the background color*/
+  opacity:.5; /* sets the transparency*/
+  height:180px; /*determines the height*/
+  border: orange 20px solid; /* specifies the colour,breadth and styling of the border*/
+  overflow: hidden; /* specifies what happens if the texts or the contentexceeds the provided heightandwidth*/
+  text-overflow: ellipsis;/* ellipsis: property of the textflow*/
   white-space: nowrap;
-  transition: height 1s;
+  transition: height 1s;/* changes the properties values from one to another over tht given time(mainlyin second)*/
 
 }
-header:hover{
+header:hover{/*allows to select elements when pointed over them */
   transition: 1s;
   height:250px;
 }
 h1{
-  color: #FFE0B2;
- font-style: italic;
- padding: 0.5%;
+  color: #FFE0B2; /* provides colors to thetext */
+ font-style: italic; /* select italic or oblique within fontfamily*/
+ padding: 0.5%; /* sets the spaces on every side of an element */
 }
 h1 a{
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Dancing Script', cursive; /* allows to set defined familyfor the fonts*/
 }
 p2{
-  padding-left: 13%;
-  padding-top: .5%;
+  padding-left: 13%; /* sets the spaces on leftside of an element*/
+  padding-top: .5%; /* sets the spaceson topof element*/
 }
 p3{
   padding: 1%;
-  font-size: 2.10em;
+  font-size: 2.10em;/* specifies the sizes of the fontfrom baseline*/
   border: white 5px solid;
   width:370px;
   font-style: normal;
 }
 img{
   height:90px;
-  width:120px;
+  width:120px;/*determines the breadth*/
   padding-left: 2%;
 }
 h2{
   color: white;
-  text-align: center;
+  text-align: center;/* alignthe textto the center*/
   font-size: 1.80em;
   height:5px;
   padding-top: 2%;
@@ -79,8 +78,8 @@ section{
 }
 .section1{
   width:700px;
-  display: flex;
-  flex-direction: row;
+  display: flex;/*displays the elements in flexwhich can alter its dimension */
+  flex-direction: row;/* flexitems displays in row*/
   height:200px;
   text-align: center;
   padding-left: 21%;
@@ -105,7 +104,7 @@ div a{
   background-color: grey;
   width:240px;
   transition: .6s;
-  box-shadow: 0 0 3px 10px rgba(0,145,180,0.5);
+  box-shadow: 0 0 3px 10px rgba(0,145,180,0.5);/*provide shadoweffect in comma separated list*/
 
 }
 .contact{
@@ -171,5 +170,4 @@ footer img{
   border: 5px white solid;
   background: black;
   font-size: 1.10em;
-
 }

@@ -112,6 +112,7 @@ input[type="textareas"]{
   height:200px;
   width: 400px;
   padding-left: 10px;
+
 }
 input[type="submit"]{
   height:40px;
@@ -129,7 +130,7 @@ footer{
   background: black;
  font-size: 1.10em;
 }
-@media screen and (max-width:1300px){
+@media screen and (max-width:1300px) {
   header{
     font-size:  100%;
     padding-left: 5%;
@@ -137,7 +138,6 @@ footer{
     padding-bottom: 2%;
   }
   header:hover{
-
     height:20%;
   }
   h1{
@@ -155,12 +155,12 @@ footer{
     font-size:140%;
     width:75%;
     padding:.9% 9% 1% 9%;
-    border-radius: 20px;
+    border-radius: 20px;<!-- allows the rounding of the borders-->
     height:5%;
   }
   a{
     padding:.35% 6% 0% 8%;
-    text-decoration: none;
+    text-decoration: none;<!-- text formatting underline,overline,linethrough..-->
   }
   .all{
     padding: 2% 10%;
