@@ -16,7 +16,6 @@ header{
   text-overflow: ellipsis;
   white-space: nowrap;
   transition: height 1.05s;
-
 }
 header:hover{
   transition: 1s;
