@@ -1,3 +1,4 @@
+/*sujina lama id no:17425087 */
 header{
   font-size:  2em;
   text-align: center;
@@ -155,12 +156,12 @@ footer{
     font-size:140%;
     width:75%;
     padding:.9% 9% 1% 9%;
-    border-radius: 20px;<!-- allows the rounding of the borders-->
+    border-radius: 20px;/* allows the rounding of the borders*/
     height:5%;
   }
   a{
     padding:.35% 6% 0% 8%;
-    text-decoration: none;<!-- text formatting underline,overline,linethrough..-->
+    text-decoration: none;/*text formatting underline,overline,linethrough*/
   }
   .all{
     padding: 2% 10%;
